@@ -47,7 +47,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="relative py-32 px-4">
+    <section id="projects" className="relative py-32 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl md:text-6xl font-black text-center mb-6">
           <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">

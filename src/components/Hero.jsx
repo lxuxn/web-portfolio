@@ -53,7 +53,7 @@ export default function Hero() {
 
         <div className="flex flex-wrap justify-center gap-4">
           <button 
-            onClick={() => document.getElementById('work').scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })}
             className="group px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full font-bold text-lg hover:scale-105 transform transition"
           >
             <span className="flex items-center space-x-2">
@@ -61,7 +61,9 @@ export default function Hero() {
               <ChevronDown className="w-5 h-5 group-hover:translate-y-1 transition" />
             </span>
           </button>
-          <button className="px-8 py-4 border-2 border-blue-500 rounded-full font-bold text-lg hover:bg-blue-500/10 transition">
+          <button 
+            onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+            className="px-8 py-4 border-2 border-blue-500 rounded-full font-bold text-lg hover:bg-blue-500/10 transition">
             Let's Connect
           </button>
         </div>
