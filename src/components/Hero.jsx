@@ -48,7 +48,7 @@ export default function Hero() {
         
         <div className="flex items-center justify-center space-x-2 text-blue-400 mb-12">
           <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse" />
-          <span className="text-lg">5 Years • 100+ Projects • ∞ Creativity</span>
+          <span className="text-lg">5 Years • 100+ Projects</span>
         </div>
 
         <div className="flex flex-wrap justify-center gap-4">

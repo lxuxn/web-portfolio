@@ -18,13 +18,15 @@ export default function Contact() {
 
         <div className="flex flex-wrap justify-center gap-6 mb-12">
           {[
-            { icon: <Mail />, label: "Email", href: "mailto:hello@example.com" },
-            { icon: <Github />, label: "GitHub", href: "#" },
-            { icon: <Linkedin />, label: "LinkedIn", href: "#" }
+            { icon: <Mail />, label: "Email", href: "mailto:karl.devspace@gmail.com" },
+            { icon: <Github />, label: "GitHub", href: "https://github.com/karl-devnode" },
+            { icon: <Linkedin />, label: "LinkedIn", href: "https://www.linkedin.com/in/carlouin/" }
           ].map((link, i) => (
             <a
               key={i}
               href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center space-x-2 px-6 py-3 bg-gray-900 hover:bg-gray-800 rounded-full border border-gray-700 hover:border-blue-500 transition group"
             >
               <span className="text-blue-400 group-hover:scale-110 transition">{link.icon}</span>
@@ -33,12 +35,15 @@ export default function Contact() {
           ))}
         </div>
 
-        <button className="group px-12 py-5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full font-bold text-xl hover:scale-105 transform transition shadow-lg hover:shadow-blue-500/50">
-          <span className="flex items-center space-x-2">
+        <a 
+        href="mailto:karl.devspace@gmail.com?subject=New Project Inquiry&body=Hi, I'd like to discuss a project..."
+        className="group px-12 py-5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full font-bold text-xl hover:scale-105 transform transition shadow-lg hover:shadow-blue-500/50 inline-flex items-center justify-center"
+        >
+        <span className="flex items-center space-x-2">
             <Send className="w-5 h-5 group-hover:translate-x-1 transition" />
             <span>Start a Project</span>
-          </span>
-        </button>
+        </span>
+        </a>
       </div>
     </section>
   );

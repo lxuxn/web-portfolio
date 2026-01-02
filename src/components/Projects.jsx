@@ -3,45 +3,45 @@ import React from 'react';
 export default function Projects() {
   const projects = [
     {
-      name: "Luxe Fashion Store",
-      type: "WooCommerce • E-Commerce",
-      description: "High-end fashion retail platform with custom product configurator and inventory management.",
-      tags: ["Custom Theme", "WooCommerce", "REST API"],
+      name: "LME Coaching",
+      type: "WordPress • Coaching",
+      description: "Career coaching platform with service listings, program details, and testimonials",
+      tags: ["Custom Theme", "Fluent Forms"],
       gradient: "from-pink-500 via-rose-500 to-purple-500"
     },
     {
-      name: "TechStart Conference",
-      type: "Events • Ticketing",
-      description: "Event management system with live streaming and automated attendee workflows.",
-      tags: ["Custom Plugin", "Stripe", "WebRTC"],
+      name: "Warlows Legal",
+      type: "WordPress • Corporate",
+      description: "Law firm website with service landing pages, lawyer profiles, legal resource hub, lead capture forms, and content-driven SEO structure.",
+      tags: ["Custom Plugin", "Stripe"],
       gradient: "from-blue-500 via-cyan-500 to-teal-500"
     },
     {
-      name: "GreenLeaf Wellness",
-      type: "Health • Membership",
-      description: "Subscription wellness platform with personalized content and progress tracking.",
-      tags: ["Membership", "User Portal", "ACF Pro"],
+      name: "AllSport Projects",
+      type: "Wordpress • Construction",
+      description: "Sports court construction website with service pages, project gallery, process overview, and enquiry forms.",
+      tags: ["Sports", "Construction", "Gallery", "Enquiry Form"],
       gradient: "from-green-500 via-emerald-500 to-teal-500"
     },
     {
-      name: "Global Enterprises",
-      type: "Corporate • Multisite",
-      description: "Multisite network managing 30+ regional websites with multilingual support.",
-      tags: ["Multisite", "WPML", "SSO"],
+      name: "Ijmal",
+      type: "SHopify • E-commerce",
+      description: "E‑commerce footwear site with product catalog, shopping cart, user accounts, and contact forms.",
+      tags: ["E‑commerce", "Product Catalog", "Cart", "User Accounts"],
       gradient: "from-indigo-500 via-purple-500 to-pink-500"
     },
     {
-      name: "LearnPro Academy",
-      type: "Education • LMS",
-      description: "Learning management system with course builder and certificate generation.",
-      tags: ["LearnDash", "Custom Blocks", "Gamification"],
+      name: "Spatial Technologies",
+      type: "Shopify • GIS/3D Mapping",
+      description: "Tech services site with GIS/3D mapping service pages, case studies, solutions overview, and contact/consultation forms.",
+      tags: ["Tech Services", "GIS/Mapping", "Case Studies", "Lead Forms"],
       gradient: "from-orange-500 via-amber-500 to-yellow-500"
     },
     {
-      name: "FoodHub Delivery",
-      type: "Marketplace • On-Demand",
-      description: "Food ordering platform with real-time tracking and driver management system.",
-      tags: ["Custom Plugin", "Maps API", "Payment"],
+      name: "Budget Outdoor Party Hire",
+      type: "WordPress • Event Services",
+      description: "Party equipment rental site with product/service listings, booking/enquiry forms, pricing info, and contact details.",
+      tags: ["Rentals", "Product Listings", "Booking Form", "Pricing Info"],
       gradient: "from-red-500 via-orange-500 to-pink-500"
     }
   ];
